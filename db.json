@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "notes": [
+        {
+          "content": "boogie woogie"
+        },
+        {
+          "content": "oogie doogie"
+        },
+        {
+          "content": "doozie woozie"
+        },
+        {
+          "content": "woozie choosy"
+        },
+        {
+          "content": "goozy bluesy"
+        }
+      ]
+    },
+    {
+      "username": "pasi",
+      "password": "mysiini",
+      "notes": [],
+      "id": 2
+    },
+    {
+      "username": "alice",
+      "password": "asdf",
+      "notes": [
+        {
+          "content": "asdf"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
