@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "username": "admin",
-      "password": "admin",
+      "username": "test",
+      "password": "testersson",
       "notes": [
         {
           "content": "boogie woogie"
@@ -21,40 +21,6 @@
           "content": "goozy bluesy"
         }
       ]
-    },
-    {
-      "username": "pasi",
-      "password": "mysiini",
-      "notes": [],
-      "id": 2
-    },
-    {
-      "username": "alice",
-      "password": "asdf",
-      "notes": [
-        {
-          "content": "asdf"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "username": "admin",
-      "password": "admin",
-      "notes": [],
-      "id": 4
-    },
-    {
-      "username": "asdf",
-      "password": "asdf",
-      "notes": [],
-      "id": 5
-    },
-    {
-      "username": "asdf",
-      "password": "asdf",
-      "notes": [],
-      "id": 6
     }
   ]
 }
