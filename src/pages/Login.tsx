@@ -15,6 +15,10 @@ export function Login() {
     const users = await axios.get('http://localhost:3001/users');
     
     const user = users.data.find((u: any) => u.username === username && u.password === password)
+
+    // const saltRounds = 12
+    // const passwordHash = await bcrypt.hash(password, saltRounds)
+    // const user = users.data.find((u: any) => u.username === username && u.password === hashedPassword)
   
     if (!user) {
       setMessage('login failed')

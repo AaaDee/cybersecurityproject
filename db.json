@@ -37,6 +37,24 @@
         }
       ],
       "id": 3
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "notes": [],
+      "id": 4
+    },
+    {
+      "username": "asdf",
+      "password": "asdf",
+      "notes": [],
+      "id": 5
+    },
+    {
+      "username": "asdf",
+      "password": "asdf",
+      "notes": [],
+      "id": 6
     }
   ]
 }
