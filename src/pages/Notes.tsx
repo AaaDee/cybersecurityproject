@@ -11,6 +11,13 @@ export function Notes() {
   const userId = parameters.get('user');
   const [notes, setNotes] = useState<Note[]>([]);
 
+  // const userJSON = window.localStorage.getItem('user') ?? ''
+  // const loggedUserId = JSON.parse(userJSON)
+  // if (!userId || !loggedUserId || userId !== loggedUserId) {
+  //   return <Navigate replace to="/" />
+  // }
+
+
   async function addNote(event: any) {
     event.preventDefault();
     const content = event.target.note.value;
